@@ -215,3 +215,41 @@ requirements-dev.txt
 !data/processed/*.csv       # Ignora todos los .csv, excepto los de data/processed
 
 !requirements.txt
+
+# Archivos personales / privados que no quiero publicar
+docs/Pry_MBA/
+
+# Carpetas privadas por sección
+# estructura clara para guardar archivos privados, personales o de referencia dentro de cada sección es clave para:
+# 🔐 No exponer archivos que no querés hacer públicos
+# 📂 Mantener orden entre material “para publicar” y material “de trabajo”
+# ✅ Ignorar automáticamente esas carpetas con .gitignore
+# docs/
+# ├── market-basket-analysis.md           ← visible en el portfolio
+# ├── powerbi-reports.md                 ← visible en el portfolio
+# ├── contacto.md                        ← visible en el portfolio
+# ├── _private/                          ← ⛔ materiales personales
+# │   ├── notas internas/
+# │   ├── versiones anteriores/
+# │   └── drafts/
+
+# 📌 Propuesta de convención
+# Usar un prefijo como _ en el nombre de la carpeta:
+# docs/_private/
+# assets/_protegido/
+# sections/_borradores/
+# 🔐 Y luego ignorarlas con una regla global en .gitignore:
+# Carpeta de trabajo no publicada
+# docs/_private/
+# assets/_protegido/
+# ✅ Ventajas
+# Beneficio	¿Por qué ayuda?
+# Evitás subir sin querer	Git las ignora automáticamente
+# Sabés qué es público	Lo que no está en una carpeta _ es publicable
+# Orden y limpieza	Separás entregables de notas o pruebas
+
+
+docs/pry_market-basket-analysis/_private/
+docs/pry_powerbi-reports/_private/
+docs/pry_contacto/_private/
+docs/_private/
