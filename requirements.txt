@@ -1,0 +1,62 @@
+# Herramientas útiles para documentación
+markdown
+markdownlint-cli
+grip
+
+# # Jupyter y notebooks
+# ipykernel==6.29.5
+# ipython==9.2.0
+# ipython_pygments_lexers==1.1.1
+# jupyter_client==8.6.3
+# jupyter_core==5.7.2
+# nbformat==5.10.4
+
+# # Debugging y entorno
+# debugpy==1.8.14
+# psutil==7.0.0
+# traitlets==5.14.3
+# pexpect==4.9.0
+# ptyprocess==0.7.0
+# nest-asyncio==1.6.0
+# platformdirs==4.3.8
+# stack-data==0.6.3
+# asttokens==3.0.0
+# executing==2.2.0
+# pure_eval==0.2.3
+# prompt_toolkit==3.0.51
+# Pygments==2.19.1
+# parso==0.8.4
+# jedi==0.19.2
+# comm==0.2.2
+
+# # Archivos y utilidades
+# openpyxl==3.1.2
+# python-dateutil==2.9.0.post0
+# requests==2.32.3
+# typing_extensions==4.13.2
+# urllib3==2.4.0
+# pytz==2025.2
+# certifi==2025.4.26
+
+
+# # App core
+# streamlit==1.45.1
+# pandas==2.2.2
+# numpy==1.26.1
+# scikit-learn==1.3.2
+# mlxtend==0.21.0
+# scipy==1.15.3
+
+# # Visualización
+# matplotlib==3.8.4
+# seaborn==0.12.2
+# plotly==5.17.0
+# pydeck==0.9.1
+# networkx==3.3        # Para graficar redes de productos en reglas de asociación
+
+# # Streamlit internals
+# blinker==1.9.0
+# watchdog==6.0.0
+# altair==5.5.0
+# jinja2==3.1.6
+# toml==0.10.2
